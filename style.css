@@ -1068,3 +1068,130 @@ li {
         font-size: 35px;
     }
 }
+
+/* règles CSS pour les tablettes */
+@media screen and (max-device-width:900px)
+{
+    /* filtres */
+    .fa-money-bill-wave {
+        position: absolute;
+        left: 144px;
+        color: #0065FC;
+        padding: 15px;
+        background-color: #deebff;
+        width: 18px;
+        height: 18px;
+        border-radius: 999px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-child {
+        position: absolute;
+        left: 347px;
+        color: #0065FC;
+        padding: 15px;
+        background-color: #deebff;
+        width: 18px;
+        height: 18px;
+        border-radius: 999px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-heart {
+        position: absolute;
+        left: 513px;
+        color: #0065FC;
+        padding: 15px;
+        background-color: #deebff;
+        width: 18px;
+        height: 18px;
+        border-radius: 999px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-dog {
+        position: absolute;
+        left: 708px;
+        color: #0065FC;
+        padding: 15px;
+        background-color: #deebff;
+        width: 18px;
+        height: 18px;
+        border-radius: 999px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* box hebergement */
+    .box_hebergement_photos {
+        width: 27%;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 15px/15px;
+        background-color: white;
+    }
+
+    /* box les plus populaires */
+    .box_les_plus_populaires_photos {
+        display: flex;
+        border-radius: 15px/15px;
+        background-color: white;
+        padding: 10px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .image_populaire_hebergement {
+        height: 160px;
+        width: 120px;
+        border-radius: 20px 0 0 20px;
+        object-fit: cover;
+    }
+
+    .p_populaies {
+        margin: unset;
+        margin-bottom: 0px;
+    }
+
+    /* box activite */
+    .img_a1 {
+        width: 100%;
+        height: 350px;
+        border-radius: 20px 20px 0 0;
+        object-fit: cover;
+    }
+
+    .img_a2 {
+        width: 100%;
+        height: 135px;
+        border-radius: 20px 20px 0 0;
+        object-fit: cover;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+
+    /* footer */
+    .F-1 {
+        width: 35%;
+    }
+
+    .F-2 {
+        width: 35%;
+    }
+
+    .F-3 {
+        width: 30%;
+    }
+}
